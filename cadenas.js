@@ -1,0 +1,10 @@
+let nombre = 'Robert';
+let apellido = 'Paternina';
+let estudiante = nombre + ' ' + apellido;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let numeroLetras = estudiante.length;
+let primerLetraNombre = nombre[0];
+let ultimaLetraApellido = apellido[8];
+let eliminarEspacios = estudiante.replace(/\s+/g, "");
+let bolean = estudiante.includes(nombre);
